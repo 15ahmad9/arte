@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #f0e9d2;
+}
+
+.tit{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-size: 50px;
+}
+
+.Anker {
+  width: 100px;
+  height: 80px;
+  overflow: hidden;
+}
+.Anker img {
+  width: 100%;
+  height: 100%;
+}
+.headTitle {
+  font-size: 300%;
+  font-family: serif;
+  margin-left: 250px;
+  font-style: italic;
+  color: #181d31;
+}
+ul {
+  background-color: #181d31;
+  list-style-type: none;
+  overflow: hidden;
+}
+li a {
+  font-weight: bold;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #678983;
+}
+li {
+  float: left;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3%;
+  color: #f0e9d2;
+  text-align: center;
+  font-size: 110%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+main {
+  background-image: url(../images/food-background-top-view-olive-oil-cherry-tomato-herbs-spices-rustic-black-slate-colorful-food-ingredients-border-food-167614841.jpg);
+  position: absolute;
+  /* height: 100%; */
+  width: 100%;
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+}
+
+.button-56 {
+  align-items: center;
+  background-color: #f0e9d2;
+  border: 2px solid #111;
+  border-radius: 8px;
+  color: #181d31;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #f0e9d2;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+.anImg {
+  text-decoration: none;
+  color: #181d31;
+}
+.hero-description {
+  text-align: center;
+  color: #f0e9d2;
+  font-size: large;
+  margin-top: 200px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+
+#title{
+  margin-top: 80px;
+  text-align: center;
+  color: #f0e9d2;
+  font-size: 30px;
+}
+
+.second{
+  margin-top: 50px;
+  text-align: center;
+  color: #f0e9d2;
+  font-size: large;
+
+}
+
+footer{
+  background: #111;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.second {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.second img {
+  height: 300px;
+  width: 200px;
+  box-shadow: none;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 7px 7px #f0689034; 
+  transition: transform .3s;
+}
+
+.second img:hover {
+  transform: scale(1.1); 
+}
+
+.second p,
+h5 {
+  text-align: center;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.second div{
+  padding: 20px;
+  background: #292929;
+  margin-bottom: 90px;
+  border-radius: 10px;
+}
